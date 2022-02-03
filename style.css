@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,700;0,900;1,700&display=swap');
 
 
-* {
+/* * {
     border: 2px solid red;
-}
+} */
 
 
 /* Body styling */
@@ -35,7 +35,7 @@ body {
     justify-content: space-between;
     padding: 8px 60px 16px 60px;
     align-items: center;
-    background-color: #eeeef1;
+    background-color: #f6f6f8;
     font-size: 20px;
 
 }
@@ -212,6 +212,8 @@ a {
     font-weight: 900;
     color: #f6f6f8;
     background-color: #131335;
+    box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.301);
+
     
 }
 
@@ -305,6 +307,8 @@ a {
     font-weight: 900;
     color: #f6f6f8;
     background-color: #131335;
+    box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.301);
+
 
 }
 
@@ -367,6 +371,7 @@ a {
     color: #eeeef1;
     background-color: #131335;
     border: 2px solid #131335;
+    box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.301);
     border-radius: 8px;
     padding: 8px;
 }
@@ -396,7 +401,10 @@ a {
 .why-img {
     width: 500px;
     height: auto;
-
+    padding: 20px;
+    box-shadow: 0 2px 4px 0px rgba(255, 0, 179, 0.651);
+    border-radius: 90px;
+    background-color: rgba(255, 0, 212, 0.205);
 }
 
 
@@ -506,7 +514,30 @@ a {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20pt;
     font-weight: 700;
-    color: #f6f6f8;
     background-color: #131335;
     box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.301);
 }
+
+.footer-signature {
+    border-radius: 16px;
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.301);
+    background-color: #eeeef1;
+    
+}
+
+.footer-link {
+    padding: 20px;
+    color: #131335;
+    
+}
+
+.footer-link:hover {
+    color: #f6f6f8;
+
+}
+
+.footer-signature:hover {
+    background-color: #131335;
+
+}
+
